@@ -1,0 +1,31 @@
+{
+  "name": "remove-vue-comments",
+  "displayName": "Remove Vue Comment",
+  "publisher": "RemoveVueComment",
+  "description": "Extension to remove comments from Vue.js files",
+  "icon": "logo.jpg",
+  "version": "0.0.2",
+  "engines": {
+      "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+      "onCommand:extension.removeComments"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+      "commands": [
+          {
+              "command": "extension.removeComments",
+              "title": "Remove Vue.js Comments"
+          }
+      ]
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/dotrungit/remove-vue-comment.git"
+  },
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {}
+}
